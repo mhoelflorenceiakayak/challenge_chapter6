@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- My CSS -->
+    <link href="/css/dashboard.css" rel="stylesheet" type="text/css"/>
+    <title>Add New Users</title>
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+          <h1> <span class="fab fa-asymmetrik"> </span> <span>Games.flo.id</span>
+          </h1>
+        </div>
+        
+        <div class="sidebar-menu">
+          <ul>
+            <li>
+              <a href="/dashboard" class="active">
+                <span class="fas fa-tachometer-alt"></span>
+                <span>Users Data</span>
+              </a>
+            </li>
+            <li>
+              <a href="/user/biodata">
+                <span class="fas fa-shopping-cart"></span>
+                <span>User Biodata</span>
+              </a>
+            </li>
+            <li>
+              <a href="/match/schedule">
+                <span class="fas fa-boxes"></span>
+                <span>All Schedule</span>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+    </div>    
+
+    <div class="main-content">
+      <header>
+        <h2>
+          <label for="nav-toggle">
+            <span class="fas fa-bars"></span>
+          </label>
+          Add New Users
+        </h2>
+
+      </header>
+
+      <main>
+          <form action="/user/simpan" method="POST">
+              <label>Fullname</label><input name="fullname" type="text" required/>
+              <br>
+              <label>Country</label><input name="country" type="text" required/><br>
+              <label>Match Schedule</label><input name="match_schedule" type="date" required/><br>
+              <label>Email</label><input name="email" type="text" required/><br>
+              <label>Username</label><input name="username" type="text" required/><br>
+              <label>Password</label><input name="password" type="password" required/><br>
+
+              <button type="submit">Tambah</button>
+          </form>
+      </main>
+    </div>
+
+
+</body>
+</html>
