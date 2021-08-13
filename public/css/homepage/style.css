@@ -1,0 +1,429 @@
+/* Navbar */
+.html {
+    width : 100vw;
+    height: 100vh;
+}
+.navbar {
+    margin-right: 20px;
+    background-color:rgba(0,0,0,0.5) ;
+    position: relative;
+    z-index: 1;
+    margin-right:auto;
+}
+.navbar-brand, .navbar-text {
+    margin-right: 100px;
+    display: inline-block;
+    color: white !important;
+    background-size: cover;
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+.navbar-text{
+    margin-right: 10px;
+}
+/* Jumbotron*/
+.jumbotron {
+    background-image: url(/img/homepage/Group\ 1.1.png );
+    background-repeat: no-repeat;
+    width: 1441.55px;
+    height: 900px;
+    text-align: center;
+    margin-top: -200px;
+    position: relative;      
+}
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+        font-family: arial;
+        font-style: bold;
+        font-size: 72px;
+        text-align: center;
+        vertical-align: top;
+        letter-spacing: 3px;
+}
+.jumbotron .display-5 {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: arial;
+        font-style: Regular ;
+        font-size: 24px;
+}
+.jumbotron .display-6 {
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+        font-style: Regular ;
+        font-size: 12px;
+}
+.section-about {
+background-image: url(/img/homepage/bg\ image\ 2.png);
+padding-top: 50px;
+margin-top: -50px;
+background-size: 100%;
+margin-top: 20px;
+height: 1048px;
+position: relative;
+background-repeat: no-repeat;
+z-index: 1;
+}
+.thegame{
+    z-index: 1;
+}  
+.section-about::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.5));
+    position: absolute;
+    bottom: 0;
+}
+.thegames-h3 {
+    margin-top: -700px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 50px;
+    font-style: regular;
+    font-weight: 100px;
+    color: white;
+    
+    
+}
+.thegames-h1 {
+    color: white;
+    margin-top: 55;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 70px;
+    font-style: bold;
+    font-weight: 511px;
+}
+.section-about-page3 {
+  margin-top: -50px;
+  background-image:url(/img/homepage/Group.jpg);
+  background-size: cover;
+  height: 1048px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.thegames-h3-2 {
+margin-top: 190px;
+color: white;
+margin-left: 950px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+}
+.thegames-h1-2{
+  margin-top: -110px;
+  margin-left: 950px;
+  color: white;
+}
+.thegames-h2-1{
+  margin-top: -90px;
+  margin-left: 950px;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 2px;
+z-index: 1;
+color: #FFB548;
+}
+.thegames-h4-1{
+  color: #FFB548;
+  margin-top: -180px;
+  margin-left: 950px;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 2px;
+z-index: 1;
+}
+.thegames-h5-1{
+color: #FFB548;
+margin-top: -180px;
+margin-left: 950px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 2px;
+z-index: 1;
+}
+.section-about-page4 {
+margin-top: -30px ;
+background-image:url(/img/homepage/Group\ 2.jpg); 
+background-size: 100%;
+height: 1048px  ;
+position: relative;
+background-repeat: no-repeat;
+
+}
+.table {
+margin-top: -40px;
+width: 400px;
+height: 270px;
+margin-left: -221px;
+z-index: 1;
+color: white;
+}
+.tabel {
+    height: 100px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 50px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.thegames-p-1{
+margin-top: -200px;
+margin-left: 950px;
+color:white;
+text-align: justify;
+z-index: 1;
+}
+.question-h3 {
+    margin-top: 100px;
+    margin-left: 530px;
+    color: white;
+    font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        z-index: 2px ;
+}
+.requirement-h1 {
+    margin-top:-357px;
+    margin-left: 150px;
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.topscores {
+    margin-left: -30px;
+}
+.topscores-p-1 {
+margin-top: 35px;
+padding-left: 200px;
+color:white;
+text-align: justify;  
+}
+.topscores-h2-1 {
+    margin-top: 310px;
+    margin-left: 195px;
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+        }
+.vector {
+
+    width: 400px;
+    height: 270px;
+    margin-top: -40px;
+    margin-left: -310px;
+}
+.section-about-page5 {
+    margin-top: -130px ;
+    background-image:url(/img/homepage/bg\ image\ 5.png);
+    background-size: 100%;
+    width: 1441px;
+    height: 1048px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.rectangle {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.08);;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.bubble {
+    margin-top: 40px;
+    margin-left: 100px
+}
+.mb-3 {
+    margin-top: 140px;
+    margin-left: 340px;
+}
+.mb-4 {
+    margin-top: -200px;
+    margin-left: 650px;
+}
+.mb-5 {
+    margin-left: 780px;
+}
+.section-about-page5::after {
+    margin-top: -300px;
+    content: '';
+    display: block;
+    size: cover;
+    background-image:url(/img/homepage/Rectangle\ 4.1.png);
+    margin-left: -50px;
+}
+.section-about-page6 {
+    margin-top: 200px ;
+    margin-left: -77px;
+    background-image:url(/img/homepage/Rectangle\ 4.3.png);
+    background-size: 100%;
+    width: 1441px;
+    height: 1048px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.piala {
+    image-resolution: 20px;
+    margin-top: 50px;
+    width: 10px;
+    height: 20px;
+    margin-left: 180px;
+}
+.newsletter-h3-2 {
+    margin-top: -310px;
+    color: white;
+    margin-left: 650px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+.newsletter-h1-2 {
+    margin-left: 650px;
+    margin-top: -390px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.newsletter-p-1 {
+    margin-top: 0px;
+    position: absolute;
+    left: 44.81%;
+    right: 8.46%;
+    top: 39.45%;
+    bottom: 46.33%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.subscribe {
+    background-color: g;
+}
+.form-inline {
+    margin-top: -500px;
+    margin-left: 700px;
+}
+/*container fluid*/ 
+
+.carousel-slide {
+    margin-top: 292px;
+    width: 45vw;
+    margin-left: 600px;
+    z-index: 1;
+}
+.carousel-control-prev {
+    margin-left: 460px;
+}
+.carousel-control-next {
+    margin-right: 50px;
+}
+/* Utility*/
+.tombol {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    text-transform: uppercase;
+    @font-face {
+        font-family: "OpenSans-Bold";
+        src: url('OpenSans-Bold.TTF');
+        font style: bold;
+    }
+}
+.tomboll {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #1A1917; 
+    margin-top: 250px;
+    margin-left: -227px;
+}
+.flexbox-item {
+    background-color: red;
+}
+.Footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: solid black;
+}
+/* DEKSTOP */
+@media (min-width: 992px) {
+.navbar-brand, .nav-link {
+        color: white !important;
+        
+    }
+
+.nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+}
+
+.jumbotron {
+    margin-top: -80px;
+}

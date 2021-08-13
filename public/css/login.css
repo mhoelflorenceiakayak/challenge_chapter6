@@ -71,7 +71,7 @@
   }
   
   body {
-    background-color: #292929;
+    background-image:url(/img/homepage/bg\ image\ 2.png);
     background-color: #292929;
     color: #606468;
     color: var(--bodyColor);
@@ -163,9 +163,9 @@
   
     --loginLabelBackgroundColor: #363b41;
   
-    --loginSubmitBackgroundColor: #ea4c88;
+    --loginSubmitBackgroundColor: #e6a004;
     --loginSubmitColor: #eee;
-    --loginSubmitHoverBackgroundColor: #d44179;
+    --loginSubmitHoverBackgroundColor: #e6a004;
   }
   
   .login {
@@ -227,6 +227,9 @@
   .login input[type="submit"]:hover {
     background-color: #d44179;
     background-color: var(--loginSubmitHoverBackgroundColor);
+  }
+  .linkregister{
+    text-align: center;
   }
   
   /* modules/text.css */

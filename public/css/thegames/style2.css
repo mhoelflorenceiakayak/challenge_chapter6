@@ -1,0 +1,425 @@
+.html{
+    width : 100vw;
+    height: 100vh;
+  }
+  .bg{
+    background-color: #9c835f;
+  }
+  /* Navbar*/
+  .selected {
+      background: #C4C4C4;
+      border-radius: 30px;
+      width: fit-content;
+      padding: 10px;
+  }
+  .back{
+    width: 50px;
+    height: 50px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+  }
+  .navbar-brand{
+    color: #F9B23D;
+    font-size: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;  
+  }
+  /* Akhir Navbar */
+  .versus {
+    margin: auto;
+    margin-left: -110px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6vw;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BD0000;
+  }
+  .com {
+    margin-left: 30px;
+  }
+  
+  #grid-container {
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  
+  .grid-item {
+    height: 100px;
+    margin-right: 100px;
+  }
+  .row{
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  h3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+    margin: auto;
+  }
+  .rock {
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width: 60%;
+    height: auto;
+  }
+  .rock:hover{
+    background: #C4C4C4;
+    border-radius: 30px;
+  }
+  .rock1 {
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width: 60%;
+    height: auto;
+  }
+  .paper {
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width: 60%;
+    height: auto;
+  }
+  .paper:hover{
+    background: #C4C4C4;
+    border-radius: 30px;
+  }
+  .paper1 {
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width: 60%;
+    height: auto;
+  }
+  .scissors {
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width: 60%;
+    height: auto;
+  }
+  .scissors:hover{
+    background: #C4C4C4;
+    border-radius: 30px;
+  }
+  .scissors1 {
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width: 60%;
+    height: auto;
+  }
+  .reset {
+  position: absolute;
+  width: 77px;
+  height: 71px;
+  left: 270px;
+  top: -10px;
+  
+  }
+  .player-win {
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  
+  /* xs */
+  @media (min-width: 320px) {
+    img {
+        width: 80px;
+    } 
+    .back {
+      width: 15px;
+      height: 15px;
+    }
+    .logo {
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
+    }
+    .navbar-brand{
+      font-size: 15px;
+    }
+    .rock{
+      margin-left: -50px;
+      margin-top: -30px;
+    }
+    .rock1{
+      margin-left: -50px;
+      margin-top: -30px;
+    }
+    .paper{
+      margin-left: -50px;
+      margin-top: 50px;
+    }
+    .paper1{
+      margin-left: -50px;
+      margin-top: 50px;
+    }
+    .scissors{
+      margin-left: -50px;
+      margin-top: -20px;
+    }
+    .scissors1{
+      margin-left: -50px;
+      margin-top: -20px;
+    }
+    .reset {
+      position: absolute;
+      width: 77px;
+      height: 71px;
+      left: 160px;
+      top: -10px;
+    }
+    .reset:hover {
+      cursor: pointer;
+    }
+    .player1 {
+      margin-top: -70px;
+      margin-left: -60px;
+    }
+    .com {
+      margin-top: -70px;
+      margin-left: -50px;
+    }
+  }
+  /* sm */
+  @media (min-width: 768px) {
+    img {
+        width: 80px;
+    }
+    .back {
+      width: 25px;
+      height: 25px;
+    }
+    .logo {
+      width: 30px;
+      height: 30px;
+      margin-left: 5px;
+    }
+    .navbar-brand{
+      font-size: 25px;
+    }
+    .rock{
+      margin-top: 50px;
+      margin-left: -20px;
+    }
+    .rock1{
+      margin-top: 50px;
+      margin-left: 10px;
+    }
+    .paper {
+      margin-top: 50px;
+      margin-left: -20px;
+    }
+    .paper1 {
+      margin-top: 50px;
+      margin-left: 10px;
+    }
+    .scissors {
+      margin-top: 50px;
+      margin-left: -20px;
+    }
+    .scissors1 {
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+    .reset {
+      position: absolute;
+      width: 77px;
+      height: 71px;
+      left: 270px;
+      top: -10px;
+    }
+    .player1 {
+      margin-top: -30px;
+      margin-left: -10px;
+    }
+    .com {
+      margin-top: -30px;
+      margin-left: 10px;
+    }
+  }
+  /* lg */
+  @media (min-width: 1024px) {
+    img {
+        width: 130px;
+    }
+    .back {
+      width: 35px;
+      height: 35px;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-left: 15px;
+    }
+    .navbar-brand{
+      font-size: 40px;
+    }
+    .rock{
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+    .rock1{
+      margin-top: 50px;
+      margin-left: 40px;
+    }
+    .paper{
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+    .paper1{
+      margin-top: 50px;
+      margin-left: 40px;
+    }
+    .scissors {
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+    .scissors1 {
+      margin-top: 50px;
+      margin-left: 40px;
+    }
+    .reset {
+      width: 60px;
+      height: 60px;
+      margin-top: -110px;
+      margin-left: 270px;
+    }
+    .player1 {
+      margin-top: -30px;
+      margin-left: 15px;
+    }
+    .com {
+      margin-top: -30px;
+      margin-left: 60px;
+    }
+  }
+  /* Xl */
+  @media (min-width: 1440px) {
+    img {
+        width: 140px;
+    }
+    .back {
+      width: 35px;
+      height: 35px;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-left: 15px;
+    }
+    .navbar-brand{
+      font-size: 40px;
+    }
+    .rock{
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .paper{
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .paper1{
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .scissors {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .scissors1 {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .reset {
+      position: absolute;
+      width: 77px;
+      height: 71px;
+      left: 280px;
+      top: -10px;
+    }
+    .player1 {
+      margin-top: -30px;
+      margin-left: 15px;
+    }
+    .com {
+      margin-top: -30px;
+      margin-left: 60px;
+    }
+  }
+  /* 4K */
+  @media (min-width: 2560px) {
+    img {
+        width: 160px;
+    }
+    .back {
+      width: 35px;
+      height: 35px;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-left: 15px;
+    }
+    .navbar-brand{
+      font-size: 40px;
+    }
+    .rock{
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    .rock1{
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    .paper{
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    .paper1{
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    .scissors {
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    .scissors1 {
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    .reset {
+      position: absolute;
+      width: 77px;
+      height: 71px;
+      left: 250px;
+      top: -10px;
+    }
+    .player1 {
+      margin-top: -30px;
+      margin-left: 130px;
+    }
+    .com {
+      margin-top: -30px;
+      margin-left: 200px;
+    }
+  }
